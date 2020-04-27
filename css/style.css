@@ -1,0 +1,254 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+a.black{
+  color:black;
+}
+.button {
+  background-color: #1c4589;
+  padding: 10px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a.button:hover{
+  background-color: #16376b;
+}
+.button2:hover{
+  background-color: #16376b;
+}
+
+
+.homepage{
+  background-image: url("../images/homepage.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:auto;
+  width:100%;
+  text-align: center;
+  position: relative;
+  transform: translate(0%, 25%);
+  color: white;
+  font-family: "Gotham SSm A","Gotham SSm B",Arial,sans-serif;
+}
+
+.homepage h1{
+  display: inline;
+  //margin-right: 1%;
+  //border: 1px;
+  //border-radius:10px;
+}
+.logol{
+  float: left;
+  width: 5%;
+  border: 7px solid #1c4589;
+  border-radius: 100px;
+  transform: translate(40%, -25%);
+}
+.logor{
+  float: right;
+  width: 5%;
+  border: 7px solid #1c4589;
+  border-radius: 100px;
+  transform: translate(-40%, -25%);
+}
+.rulesheader{
+  border-radius: 100px;
+  margin-top: 30px;
+  margin-left: 80px;
+  margin-right: 80px;
+  //color: blue;
+  text-align: center;
+  //padding-top: 20px;
+  background-color: #1c4589;
+  //padding-bottom: 25px;
+  font-family: "Gotham SSm A","Gotham SSm B",Arial,sans-serif;
+}
+
+.rulesheader h1{
+    display: inline;
+    //margin-right: 10%;
+}
+
+.hallcontent{
+  background-color: #fcfcfc;
+  background-size: cover;
+  padding-bottom: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+  padding-top: 5px;
+  margin-bottom:50px;
+  margin-top: 50px;
+  border: 2px solid #dbdbdb;
+  border-radius: 5px;
+  //box-shadow: 10px 10px 5px grey;
+  overflow:auto;
+}
+.hallcontent h1{
+  text-align: center;
+  margin: 35px;
+}
+.hallcontent h2{
+  text-align: center;
+  font-style: italic;
+}
+.hallcontent p{
+  color: black;
+  padding: 30px;
+  font-size: 24pt;
+  margin-left: 30px;
+}
+.hallcontent a{
+  color: black;
+}
+.hallcontent a:hover{
+  color: blue;
+}
+.textcontent{
+  background-color: #fcfcfc;
+  background-size: cover;
+  padding-bottom: 10px;
+  margin-right: 100px;
+  margin-left: 100px;
+  padding-top: 10px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  border: 2px solid #dbdbdb;
+  border-radius: 5px;
+  overflow:auto;
+}
+.textcontent h1{
+  text-align: left;
+  margin: 10px;
+}
+.textcontent p{
+  color: black;
+  padding: 0px;
+  margin: 10px;
+  font-size: 20pt;
+}
+.column {
+ float: left;
+ width: 28%;
+ padding: 40px;
+}
+.row::after {
+ content: "";
+ clear: both;
+ display: table;
+}
+.hofimg{
+  border: 10px solid white;
+  border-bottom: 150px solid white;
+  box-shadow: 10px 10px 5px grey;
+}
+.hofimgcap{
+  margin-top: -150px;
+  margin-left: 10px;
+  color: black;
+}
+.hofimgcap h3{
+  text-align: right;
+    transform: translate(0%, 160%);
+}
+.hofimgcap p{
+  font-size: 16pt;
+  margin-top: -20px;
+  margin-bottom: -55px;
+  margin-left: -30px;
+}
+.confimg{
+  border: 10px solid white;
+  box-shadow: 10px 10px 5px grey;
+}
+.summerconfimg{
+  border: 10px solid white;
+  border-bottom: 75px solid white;
+  box-shadow: 10px 10px 5px grey;
+}
+.summerconfimgcap{
+  margin-top: -50px;
+  margin-left: 10px;
+  color: black;
+}
+.summerconfimgcap h2{
+  margin-left: 10px;
+  color: black;
+}
+.summerconfimgcap p{
+  font-size: 16pt;
+  margin-top: -20px;
+  margin-bottom: -55px;
+  margin-left: -30px;
+}
+.confimgcap{
+  margin-top: -50px;
+  margin-left: 10px;
+  color: black;
+}
+.confimgcap h2{
+  margin-left: 10px;
+  color: black;
+}
+.confimgcap p{
+  font-size: 16pt;
+  margin-top: -20px;
+  margin-bottom: -55px;
+  margin-left: -30px;
+}
+.teamimg{
+  float:left;
+  margin-left: 10px;
+}
+.teamcontent{
+  background-color: #fcfcfc;
+  background-size: cover;
+  padding-bottom: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
+  padding-top: -10px;
+  margin-bottom:50px;
+  margin-top: 5px;
+  border: 3px solid #dbdbdb;
+  border-radius: 5px;
+  //box-shadow: 10px 10px 5px grey;
+}
+.teamcontent h1{
+  text-align: center;
+  margin: 35px;
+}
+.teamcontent p{
+  display:inline;
+  font-size: 24pt;
+}
+.teamcap{
+  margin-top: 20px;
+}
+.textimg{
+  float: left;
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.textcontent figcaption{
+  padding-left: 20px;
+  float:left;
+  width:80%;
+}
+.textcontent a{
+  color:black;
+}
+
+.textcontent a:hover{
+  color:blue;
+}
